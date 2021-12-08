@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="layout :: headerFragment">
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>Books Portal</h1>
+    </div>
+    <div>
+        <p>This is a Book Portal, move to the next page to check all available books.</p>
+
+        <h2>Existing Books</h2>
+        <div class="well">
+            <b>Enter the page: </b><a th:href="@{/books}">books</a>
+        </div>
+    </div>
+</div>
+<!-- container -->
+
+</body>
+</html>
